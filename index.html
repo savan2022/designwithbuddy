@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <!-- Bootstrap icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Style  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+
+    <title>Design Code</title>
+</head>
+
+<body>
+
+    <!-- NOTE : Always Keep Navbar and slider outside the container. -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-weight: bolder; width: 140px;">Design Code</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Client</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Web Development</a></li>
+                            <li><a class="dropdown-item" href="#">App Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">SEO</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider  -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/web-designing.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/software-development.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/mobile-development.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container-fluid">
+        <!-- Tagline  -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="display-6 text-center mt-5 mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Aliquid, maiores cumque.</h3>
+            </div>
+        </div>
+
+        <!-- Features  -->
+        <div class="row justify-content-evenly pt-3 pb-2">
+            <div class="col-md-3 text-center mt-5">
+                <h1><i class="bi bi-file-code-fill text-primary "></i></h1>
+                <h5>Built for Developer</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex et exercitationem nemo similique, molestias sunt? </p>
+            </div>
+            <div class="col-md-3 text-center mt-5">
+                <h1><i class="bi bi-easel-fill text-danger "></i></h1>
+                <h5>Built for Developer</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex et exercitationem nemo similique, molestias sunt? </p>
+            </div>
+            <div class="col-md-3 text-center mt-5">
+                <h1><i class="bi bi-calendar3-range-fill text-success"></i></h1>
+                <h5>Built for Developer</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex et exercitationem nemo similique, molestias sunt? </p>
+            </div>
+        </div>
+        
+        <!-- line  -->
+        <hr>
+
+        <!-- Growth Section  -->
+
+        <div class="row justify-content-evenly pt-3 pb-5">
+            <div class="col-md-5 pt-3">
+                <img src="img/growth.jpg"  class="img-fluid" alt="growth" style="width:762px;
+                width: 742px;">
+            </div>
+            <div class="col-md-5 pt-3">
+                  <h5 class="mt-3">Website Development</h5>
+                  <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  
+                  <h5 class="mt-3">App Development</h5>
+                  <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+
+                  <h5 class="mt-3">SoftwareDevelopment</h5>
+                  <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+
+                  <h5 class="mt-3">SEO</h5>
+                  <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+
+                  <h5 class="mt-3">Marketing</h5>
+                  <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+
+            </div>
+        </div>
+
+        <!-- Contact Section  -->
+        <div class="row justify-content-evenly pt-2 pb-5" style="background-color: #f1f1f1;">
+            <div class="col-md-5 mt-5">
+                <h3 class="mb-4">Contact Form</h3>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputName" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="exampleInputName" >
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                  </form>
+            </div>
+            <div class="col-md-5 mt-5">
+                <h3 class="mb-4">Address</h3>
+                <p>
+                    1180 Kimberly Way, WILLISTON PARK <br>
+                    NEW YORK - 11596 <br>
+                    <i class="bi bi-telephone"></i> : 917-772-5081
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114328.22316366584!2d72.91136285939977!3d22.822959303969288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e3fbfffffffdf%3A0x9682e9204d5e2f98!2sNew%20Bombay%20Chopati%20Ice%20Cream!5e0!3m2!1sen!2sin!4v1630237018200!5m2!1sen!2sin"  height="250" style="border:0; width: 100%;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <!-- FAQ Section  -->
+        <div class="row justify-content-evenly pt-5 pb-5">
+            <div class="col-md-10">
+                <h3 class="text-center pb-4">FAQ</h3>
+                <div class="accordion accordion-flush border" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <!-- Footer Section  -->
+        <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Design Code</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus nihil officia fuga praesentium? Voluptatum nihil inventore voluptatem dolorum repellat aliquid similique unde minima totam veritatis.</p>
+            </div>
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Imporatnt Links</h5>
+                <p>
+                    <a href="#" class="link-light text-decoration-none">Home</a><br>
+                    <a href="#" class="link-light text-decoration-none">About Us</a><br>
+                    <a href="#" class="link-light text-decoration-none">Contact Us</a><br>
+                    <a href="#" class="link-light text-decoration-none">Our Team</a><br>
+                    <a href="#" class="link-light text-decoration-none">Our Clients</a><br>
+                </p>
+            </div>
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Contact Us</h5>
+                <p>
+                    1180 Kimberly Way, WILLISTON PARK <br>
+                    NEW YORK - 11596 <br>
+                    <i class="bi bi-telephone"></i> : 917-772-5081
+                </p>
+            </div>
+        </div>
+
+        <!-- Copyright Section  -->
+        <div class="row">
+            <div class="col-12 bg-secondary text-white text-center p-2">
+                <p>Copyright &copy; 2021-22 by Design Code . All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <!-- Container-end  -->
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
